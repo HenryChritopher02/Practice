@@ -1,0 +1,10 @@
+# Display numbers divisible by 5 from a list
+print("Given list is [10,20,33,46,55]")
+list = [10,20,33,46,55,65,70]
+size = len(list)
+for i in range(0, size):
+    num = list[i]
+    if num % 5 == 0:
+        print('Number divided by 5: ',num)
+    else:
+        print(num,'is not a Number divided by 5')
